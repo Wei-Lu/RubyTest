@@ -4,7 +4,7 @@ class Table
 	end
 	
 	def self.description
-	  puts "Nice table)
+	  puts "Nice table"
 	end 
 end
 
