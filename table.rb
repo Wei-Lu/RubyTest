@@ -11,3 +11,4 @@ end
 table = Table.new
 Table.description
 table.area(8)
+table.area(8,8)
