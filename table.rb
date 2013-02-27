@@ -1,6 +1,6 @@
 class Table
 	def area(length, width=7)
-	  length * width
+	  puts length * width
 	end
 	
 	def self.description
@@ -11,3 +11,4 @@ end
 table = Table.new
 Table.description
 table.area(8)
+table.area(8,8)
