@@ -1,0 +1,13 @@
+class_file_name = "e:/OutputEvenNumber.rb"
+car_file_name = "e:/CarQuality.rb"
+
+
+require car_file_name
+require class_file_name
+
+test_class = Car_Quality.new(2012)
+test_class.show_quality
+
+test_class1 = OutputEvenNumber.new(30)
+test_class1.output_even_number
+
